@@ -1,0 +1,13 @@
+date,period_days,marketplace,sku,product,revenue,orders,units,sessions,ad_spend,ad_clicks,ad_revenue,inventory_units,gross_margin_pct,budget_utilization,revenue_change_pct,sessions_change_pct,price_index_vs_competitor
+2026-08-12,7,Marketplace A,SKU-101,FreshWash Appliance Care,182400,760,810,12100,28500,1450,101000,1650,0.46,0.94,0.08,0.05,0.98
+2026-08-12,7,Marketplace A,SKU-102,ClearShine Surface Spray,126800,490,510,10400,32200,1720,69000,2100,0.43,0.82,-0.19,-0.04,1.12
+2026-08-12,7,Marketplace A,SKU-103,SoftScrub Cleaning Pads,94400,610,640,8700,14300,980,58500,820,0.51,0.97,0.14,0.11,0.96
+2026-08-12,7,Marketplace B,SKU-101,FreshWash Appliance Care,137500,590,620,9300,19400,1130,78000,1180,0.45,0.88,-0.05,-0.02,1.01
+2026-08-12,7,Marketplace B,SKU-102,ClearShine Surface Spray,111200,410,430,8900,26700,1490,54000,1750,0.42,0.91,-0.17,-0.18,1.08
+2026-08-12,7,Marketplace B,SKU-104,MetalGlow Home Polish,78600,300,315,5200,9800,610,40200,125,0.49,0.72,0.12,0.09,0.99
+2026-08-12,7,Marketplace C,SKU-101,FreshWash Appliance Care,102900,455,470,7600,16100,920,65000,970,0.44,0.93,0.04,0.02,1.03
+2026-08-12,7,Marketplace C,SKU-103,SoftScrub Cleaning Pads,72100,470,490,6900,11900,820,44000,690,0.50,0.96,0.18,0.15,0.95
+2026-08-12,7,Marketplace C,SKU-104,MetalGlow Home Polish,68400,275,288,5900,18700,1080,37000,145,0.48,0.86,-0.22,-0.08,1.14
+2026-08-12,7,Marketplace C,SKU-105,KitchenPro Absorbent Roll,59800,350,370,6400,8300,560,32600,510,0.39,0.99,0.21,0.19,0.97
+2026-08-12,7,Marketplace D,SKU-102,ClearShine Surface Spray,62400,235,248,5100,15300,930,30000,940,0.41,0.76,-0.08,-0.16,1.05
+2026-08-12,7,Marketplace D,SKU-105,KitchenPro Absorbent Roll,48700,290,305,4700,6900,490,27100,680,0.38,0.92,0.06,0.03,1.00
