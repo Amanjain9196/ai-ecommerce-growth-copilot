@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+.DS_Store
+*.log
+# Never commit real marketplace exports or credentials
+data/private/
+data/raw/
+credentials/
+secrets/
