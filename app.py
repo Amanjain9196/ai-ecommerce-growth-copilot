@@ -3,7 +3,7 @@ import streamlit as st
 
 from src.analytics import enrich_metrics, marketplace_summary, portfolio_summary
 from src.copilot import answer
-from src.data_loader import load_data
+from src.data_loader import REQUIRED_COLUMNS, load_data
 from src.recommendations import generate_recommendations
 
 st.set_page_config(page_title="AI E-commerce Growth Copilot", page_icon="📈", layout="wide")
@@ -13,7 +13,7 @@ st.caption("Decision intelligence across sales, ads, inventory and pricing • s
 uploaded = st.sidebar.file_uploader("Upload compatible CSV", type=["csv"])
 if uploaded:
     raw = pd.read_csv(uploaded)
-    missing = set(load_data.__globals__["REQUIRED_COLUMNS"]).difference(raw.columns)
+    missing = REQUIRED_COLUMNS.difference(raw.columns)
     if missing:
         st.error(f"Missing columns: {sorted(missing)}")
         st.stop()
